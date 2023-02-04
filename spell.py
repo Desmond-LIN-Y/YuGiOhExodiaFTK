@@ -173,6 +173,7 @@ def pesudo_space(state):
         state.field_spell.append(pesudo_space_card)
         state.graveyard.remove(chicken_game_card)
         draw(state)
+        state.hand.remove(pesudo_space_card)
         return 1
     return 0
 
@@ -180,6 +181,7 @@ def Anchamoufrite(state):
     if state.extra_deck:
         return 0
     draw(state)
+    state.hand.remove(Anchamoufrite_card)
     return 1
 
 def spellbook_of_knowledge(state):
@@ -265,12 +267,17 @@ deck = [upstart_goblin_card, upstart_goblin_card, upstart_goblin_card,
                 spellbook_of_knowledge_card, spellbook_of_secrets_card, spellbook_magician_of_prophecy_card]
 
 
-def simulate():
+def simulate(n):
     win = 0
-    for i in range(10):
+    for i in range(n):
         np.random.seed(i)
         win += game()
-    return win / 10
+        if i % 100 == 0:
+            print(f'running {i}th simulation')
+    with open("gamelog.txt", "a") as o:
+        o.write(f'\n Empirical probability is {win/n}\n')
+    
+    return win/n
 
 def game():
     with open("gamelog.txt", "a") as o:
@@ -297,7 +304,6 @@ def game():
         o.write(f'{state.hand}\n')
     while True:
         state.hand = sorted(state.hand, reverse=True, key=lambda x: x.priority)
-        print(state.hand)
         played = 0
         for card in state.hand:
             if card.play(state):
@@ -311,4 +317,4 @@ def game():
             sky_striker_mobilize_card.priority = 8 
     return state.signal
 
-game()
+simulate(10000)
