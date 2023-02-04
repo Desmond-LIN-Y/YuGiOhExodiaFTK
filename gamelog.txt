@@ -1,0 +1,72 @@
+
+New Exodia FTK simulation:
+Initial five cards are
+[chicken_game, terraforming, upstart_goblin, cartoon_dictionary, upstart_goblin]
+I activated cartoon_dictionary:
+now my hands are [terraforming, chicken_game, upstart_goblin, upstart_goblin, cartoon_dictionary]
+I activated cartoon_dictionary:
+now my hands are [terraforming, chicken_game, upstart_goblin, upstart_goblin, cartoon_dictionary]
+I activated cartoon_dictionary:
+now my hands are [terraforming, chicken_game, upstart_goblin, upstart_goblin, cartoon_spellcaster_dark]
+I activated terraforming:
+now my hands are [chicken_game, upstart_goblin, upstart_goblin, cartoon_spellcaster_dark, chicken_game]
+I activated chicken_game:
+now my hands are [upstart_goblin, upstart_goblin, chicken_game, cartoon_spellcaster_dark, into_the_void]
+I activated into_the_void:
+now my hands are [upstart_goblin, upstart_goblin, chicken_game, cartoon_spellcaster_dark, one_day_of_peace]
+I activated upstart_goblin:
+now my hands are [upstart_goblin, chicken_game, one_day_of_peace, cartoon_spellcaster_dark, pseudo_space]
+I activated upstart_goblin:
+now my hands are [chicken_game, one_day_of_peace, pseudo_space, cartoon_spellcaster_dark, reinforcement]
+I activated reinforcement:
+now my hands are [chicken_game, one_day_of_peace, pseudo_space, cartoon_spellcaster_dark, sky_striker_renyi]
+I activated chicken_game:
+now my hands are [one_day_of_peace, pseudo_space, cartoon_spellcaster_dark, sky_striker_renyi, into_the_void]
+I activated into_the_void:
+now my hands are [one_day_of_peace, pseudo_space, cartoon_spellcaster_dark, sky_striker_renyi, exodia_left_hand]
+I activated one_day_of_peace:
+now my hands are [pseudo_space, cartoon_spellcaster_dark, sky_striker_renyi, exodia_left_hand, exodia_right_leg]
+I activated pseudo_space:
+now my hands are [pseudo_space, cartoon_spellcaster_dark, sky_striker_renyi, exodia_left_hand, exodia_right_leg, magical_mallet]
+I activated pseudo_space:
+now my hands are [pseudo_space, magical_mallet, cartoon_spellcaster_dark, sky_striker_renyi, exodia_left_hand, exodia_right_leg, chicken_game]
+I activated chicken_game:
+now my hands are [pseudo_space, magical_mallet, cartoon_spellcaster_dark, sky_striker_renyi, exodia_left_hand, exodia_right_leg, anchamoufrite]
+I activated pseudo_space:
+now my hands are [anchamoufrite, pseudo_space, magical_mallet, cartoon_spellcaster_dark, sky_striker_renyi, exodia_left_hand, exodia_right_leg, sky_striker_renyi]
+I activated magical_mallet:
+now my hands are [sky_striker_mobilize, spellbook_magician_of_prohecy, exodia_head, spellbook_of_secrets, anchamoufrite, allure_of_darkness, exodia_right_hand]
+I activated sky_striker_mobilize:
+now my hands are [exodia_head, spellbook_of_secrets, spellbook_magician_of_prohecy, anchamoufrite, allure_of_darkness, exodia_right_hand, sky_striker_drones, sky_striker_renyi]
+I activated spellbook_magician_of_prohecy:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, allure_of_darkness, sky_striker_drones, exodia_right_hand, sky_striker_renyi, spellbook_of_knowledge]
+I activated allure_of_darkness:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, sky_striker_drones, spellbook_of_knowledge, exodia_right_hand, allure_of_darkness, pseudo_space]
+I activated sky_striker_drones:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, allure_of_darkness, pseudo_space, spellbook_of_knowledge, exodia_right_hand, sky_striker_mobilize]
+I activated sky_striker_mobilize:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, allure_of_darkness, pseudo_space, spellbook_of_knowledge, exodia_right_hand, sky_striker_renyi, magical_mallet]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, allure_of_darkness, pseudo_space, spellbook_of_knowledge, magical_mallet, exodia_right_hand, sky_striker_renyi, into_the_void]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, spellbook_of_knowledge, magical_mallet, exodia_right_hand, sky_striker_renyi, upstart_goblin]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, spellbook_of_knowledge, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, spellbook_of_knowledge, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, contract_with_don_thousand]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, magical_mallet]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, allure_of_darkness]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, allure_of_darkness, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, pseudo_space]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, allure_of_darkness, pseudo_space, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, exodia_right_leg]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, allure_of_darkness, pseudo_space, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, exodia_right_leg, exodia_left_leg]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, allure_of_darkness, pseudo_space, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, exodia_right_leg, exodia_left_leg, sky_striker_mobilize]
+I activated anchamoufrite:
+now my hands are [exodia_head, spellbook_of_secrets, sky_striker_mobilize, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, allure_of_darkness, pseudo_space, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, exodia_right_leg, exodia_left_leg, exodia_left_hand]
+FTK by ExodiaI activated exodia_head:
+now my hands are [exodia_head, spellbook_of_secrets, sky_striker_mobilize, anchamoufrite, into_the_void, allure_of_darkness, pseudo_space, upstart_goblin, allure_of_darkness, pseudo_space, spellbook_of_knowledge, contract_with_don_thousand, magical_mallet, magical_mallet, exodia_right_hand, sky_striker_renyi, sky_striker_renyi, exodia_right_leg, exodia_left_leg, exodia_left_hand]
