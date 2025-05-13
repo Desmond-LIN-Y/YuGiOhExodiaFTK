@@ -20,7 +20,7 @@ class CoordToColumns:
     grp_vars: Optional[list[str] | str] = None
     population_age: Optional[str] = None
     population_size: Optional[str] = None
-    '''
+    """
      A configuration class to map coordinate variable names to corresponding
     column names in a dataset.
 
@@ -48,7 +48,7 @@ class CoordToColumns:
     ValueError
         If neither `age_cnt` nor `age_grp_cnt` is provided, or if one of
         `population_age` or `population_size` is provided without the other.
-    '''
+    """
 
     @property
     def cnt(self):
@@ -59,9 +59,9 @@ class CoordToColumns:
         return self.age_part
 
     def __post_init__(self):
-        '''
+        """
         validate parameters and changing into appropriate forms
-        '''
+        """
         pass
 
 @dataclass
@@ -146,7 +146,7 @@ class GeneralLoader:
     """
 
     def load(self, sparse=False) -> xr.Dataset:
-        '''
+        """
         Converts the cleaned contact-participant DataFrame into an Xarray Dataset.
 
         Performs the following operations:
@@ -166,13 +166,13 @@ class GeneralLoader:
 
         Raises:
             NotImplementedError: If age columns required for alignment are missing or unsupported.
-        '''
+        """
         pass
 
     def set_age_bounds(self, min_age=0, max_age=None):
-        '''
+        """
         if no max_age input, it is inferred from the data
-        '''
+        """
         pass
     
     def precompute(self):
@@ -210,9 +210,9 @@ class GeneralLoader:
         pass
     
     def stratify(self):
-        '''
+        """
         Future implementation
-        '''
+        """
         pass
 
 
