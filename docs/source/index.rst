@@ -1,9 +1,20 @@
-Welcome to My Project
-=====================
+cntmosaic Documentation
+=======================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Package Modules:
+   
+   modules/analysis
+   modules/dataloader
+   modules/models
+   modules/vis
+   modules/utils
+   modules/tutorial
+   
 
-   getting-started
-   api-reference
+Indices and Tables
+------------------
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

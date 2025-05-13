@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'EXODIA'
-copyright = '2025, DEZLIN'
-author = 'DEZLIN'
+project = 'cntmosaic'
+copyright = '2025, sss'
+author = 'xxx'
 release = '0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -17,8 +17,13 @@ release = '0.1'
 extensions = [
   'sphinx.ext.napoleon',
   'sphinx.ext.autodoc',
-  'myst_parser'
+  'sphinx.ext.viewcode',
+  'myst_parser',
+  'nbsphinx'
 ]
+# Support notebook files
+nbsphinx_allow_errors = True
+autoclass_content = 'both'
 
 source_suffix = {
   '.rst': 'restructuredtext',
@@ -46,3 +51,4 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path('../../').resolve()))
+
