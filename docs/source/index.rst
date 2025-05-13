@@ -7,11 +7,10 @@ cntmosaic Documentation
    
    modules/analysis
    modules/dataloader
-   modules/models
    modules/vis
    modules/utils
    modules/tutorial
-   
+   modules/models
 
 Indices and Tables
 ------------------

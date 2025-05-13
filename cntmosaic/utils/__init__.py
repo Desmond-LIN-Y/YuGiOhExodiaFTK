@@ -1,11 +1,3 @@
 from ._AgeBins import AgeBins
-from ._utils import (
-  pixilate,
-  depixilate,
-)
+from ._utils import *
 
-__all__ = [
-  "AgeBins",
-  "pixilate",
-  "depixilate",
-]

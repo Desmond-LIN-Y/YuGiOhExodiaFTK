@@ -8,7 +8,10 @@ DataLoader Module
 
 Submodules
 ----------
+.. toctree::
+   :maxdepth: 1
 
+   restru_loaders
 
 .. automodule:: cntmosaic.dataloader.restru_loaders
    :members:
