@@ -14,6 +14,9 @@ class State:
         self.signal = signal
 
 class monster:
+    '''
+    monster cards
+    '''
     priority = 0
     def __init__(self, name):
         self.name = name
@@ -29,6 +32,7 @@ class monster:
 
         
 class spell:
+    '''spell cards'''
     def __init__(self, name, effect, priority):
         self.name = name
         self.effect = effect
