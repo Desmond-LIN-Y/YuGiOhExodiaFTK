@@ -18,7 +18,7 @@ extensions = [
   'sphinx.ext.napoleon',
   'sphinx.ext.autodoc',
   'sphinx.ext.viewcode',
-  'sphinx-copybutton',
+  'sphinx_copybutton',
   'myst_parser',
   'nbsphinx'
 ]
