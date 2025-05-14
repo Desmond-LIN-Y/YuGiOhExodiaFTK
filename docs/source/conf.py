@@ -18,10 +18,12 @@ extensions = [
   'sphinx.ext.napoleon',
   'sphinx.ext.autodoc',
   'sphinx.ext.viewcode',
-  'sphinx_copybutton',
   'myst_parser',
-  'nbsphinx'
+  'nbsphinx',
+    'sphinxcontrib.rawfiles',
+    'sphinx.ext.ifconfig'
 ]
+
 # Support notebook files
 nbsphinx_execute = 'never'  # Use pre-executed notebooks
 nbsphinx_allow_errors = True
